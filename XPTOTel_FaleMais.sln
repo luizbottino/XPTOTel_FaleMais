@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XPTOTel_FaleMais.Api", "XPTOTel_FaleMais.Api\XPTOTel_FaleMais.Api.csproj", "{00409384-7C9D-41F1-B928-272C78A7E427}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XPTOTel_FaleMais.Application", "XPTOTel_FaleMais.Application\XPTOTel_FaleMais.Application.csproj", "{AB863F66-AAE3-42D4-BB8E-C7DBA91EF8E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XPTOTel_FaleMais.Domain", "XPTOTel_FaleMais.Domain\XPTOTel_FaleMais.Domain.csproj", "{9C3C4A3F-7637-41FE-A124-DCE54D8FC360}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XPTOTel_FaleMais.Infrastructure", "XPTOTel_FaleMais.Infrastructure\XPTOTel_FaleMais.Infrastructure.csproj", "{B3AF30C3-C625-43B3-BC80-4C7C2ACF1DA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPTOTel_FaleMais.Tests", "XPTOTel_FaleMais.Tests\XPTOTel_FaleMais.Tests.csproj", "{DBF98CDF-1EBC-4FE2-ACC9-7D24974DD043}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00409384-7C9D-41F1-B928-272C78A7E427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00409384-7C9D-41F1-B928-272C78A7E427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00409384-7C9D-41F1-B928-272C78A7E427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00409384-7C9D-41F1-B928-272C78A7E427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB863F66-AAE3-42D4-BB8E-C7DBA91EF8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB863F66-AAE3-42D4-BB8E-C7DBA91EF8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB863F66-AAE3-42D4-BB8E-C7DBA91EF8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB863F66-AAE3-42D4-BB8E-C7DBA91EF8E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C3C4A3F-7637-41FE-A124-DCE54D8FC360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3C4A3F-7637-41FE-A124-DCE54D8FC360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3C4A3F-7637-41FE-A124-DCE54D8FC360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3C4A3F-7637-41FE-A124-DCE54D8FC360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3AF30C3-C625-43B3-BC80-4C7C2ACF1DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3AF30C3-C625-43B3-BC80-4C7C2ACF1DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3AF30C3-C625-43B3-BC80-4C7C2ACF1DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3AF30C3-C625-43B3-BC80-4C7C2ACF1DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF98CDF-1EBC-4FE2-ACC9-7D24974DD043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF98CDF-1EBC-4FE2-ACC9-7D24974DD043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF98CDF-1EBC-4FE2-ACC9-7D24974DD043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF98CDF-1EBC-4FE2-ACC9-7D24974DD043}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C801C278-6FE3-4A4D-9DB2-55EBAD3D9E1E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace XPTOTel_FaleMais.Application.Commands.Planos
+{
+    public class CriarPlanoCommand : IRequest
+    {
+        public string Nome { get; set; }
+        public int MinutosFranquia { get; set; }
+    }
+}

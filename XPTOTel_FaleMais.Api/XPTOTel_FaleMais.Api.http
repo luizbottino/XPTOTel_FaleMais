@@ -1,0 +1,6 @@
+@XPTOTel_FaleMais.Api_HostAddress = http://localhost:5116
+
+GET {{XPTOTel_FaleMais.Api_HostAddress}}/
+Accept: application/json
+
+###

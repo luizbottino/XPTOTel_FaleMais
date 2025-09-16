@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>41d1e375-7afc-49dd-a540-4b85d59dd052</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XPTOTel_FaleMais.Application\XPTOTel_FaleMais.Application.csproj" />
+    <ProjectReference Include="..\XPTOTel_FaleMais.Infrastructure\XPTOTel_FaleMais.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
