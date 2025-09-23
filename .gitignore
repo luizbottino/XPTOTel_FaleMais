@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Ignorar arquivo de variáveis de ambiente do Docker
+.env
+
+# Ignorar arquivos de certificado
+.certs/

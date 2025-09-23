@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  api:
+    container_name: falemais-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"  # Porta para HTTP
+      - "8081:8443"  # Mapeia a porta 8081 do seu PC para a porta 8443 (HTTPS)
+    environment:
+      # Portas HTTP e HTTPS
+      - ASPNETCORE_URLS=https://+:8443;http://+:8080
+      # Aponta para o caminho do certificado dentro do contêiner
+      - ASPNETCORE_KESTREL__CERTIFICATES__DEFAULT__PATH=/https/aspnetapp.pfx
+      # Senha do certificado do arquivo .env
+      - ASPNETCORE_KESTREL__CERTIFICATES__DEFAULT__PASSWORD=${CERT_PASSWORD}
+      # String de conexão do Azure
+      - ConnectionStrings__DefaultConnection=${AZURE_DB_CONNECTION_STRING}
+      # Secret Key para o token JWT
+      - JwtSettings__SecretKey=${JWT_SECRET_KEY}
+    volumes:
+      - ./.certs:/https:ro
