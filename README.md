@@ -23,7 +23,7 @@ OBS: Para os testes que eu realizei, fiz uso dos user secrets, caso precise da c
 
 ### Passo 4: Configuração da Secret Key para o Token JWT
 
-Novamente nos arquivos [appsettings.json] ou [secrest.json], faça a configuração de uma Secret Key para a funcionalidade do token.
+Novamente nos arquivos [appsettings.json] ou [secrets.json], faça a configuração de uma Secret Key para a funcionalidade do token.
 
 ### Passo 5: Executar e testar a aplicação
 
